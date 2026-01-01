@@ -88,6 +88,10 @@ img {
   color: gray;
   padding-bottom: 8px;
 }
+.starIcon {
+  color: gold;
+  margin-bottom: 8px;
+}
 /* ============= Testimonial Cards 3 =============== */
 .section4 {
   width: 100%;
@@ -96,4 +100,9 @@ img {
   border: 1px solid black;
   border-radius: 12px;
   margin-top: 40px;
+}
+.imageflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
