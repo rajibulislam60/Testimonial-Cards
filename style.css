@@ -88,3 +88,12 @@ img {
   color: gray;
   padding-bottom: 8px;
 }
+/* ============= Testimonial Cards 3 =============== */
+.section4 {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  margin-top: 40px;
+}
