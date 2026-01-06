@@ -87,11 +87,6 @@ img {
   #container {
     width: 95%;
   }
-  /* .section {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  } */
   .section2 {
     width: 100%;
   }
@@ -132,7 +127,33 @@ img {
   color: gold;
   margin-bottom: 8px;
 }
-/* ============= Testimonial Cards 3 =============== */
+/* ----------------- Responsive ---------------- */
+@media (max-width: 992px) {
+  #container {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  #container {
+    width: 95%;
+  }
+  .section3 {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    height: auto;
+  }
+  .section3 img {
+    height: 40%;
+  }
+  .profile-details {
+    padding: 8px;
+  }
+  .profile-details p {
+    font-size: 12px;
+  }
+}
+/* ============= Testimonial Cards 4 =============== */
 .section4 {
   width: 100%;
   padding: 20px;
