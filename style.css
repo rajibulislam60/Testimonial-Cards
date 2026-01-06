@@ -189,3 +189,29 @@ img {
   opacity: 0.8;
   filter: blur(1px);
 }
+/* -------------- Responsive --------------- */
+@media (max-width: 992px) {
+  #container {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  #container {
+    width: 95%;
+  }
+  .slider {
+    gap: 20px;
+  }
+  .imgs .main {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ccc;
+  }
+  .imgs .small {
+    width: 55px;
+    height: 55px;
+  }
+  .imgs {
+    gap: 16px;
+  }
+}
